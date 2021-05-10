@@ -1,0 +1,124 @@
+/*For mobile*/
+@media only screen and (max-width:767px)
+{
+    [class*="col-"]{
+        width: 100%;
+    }
+    #menu {
+    position: sticky;
+    }
+
+    
+.col-sm-1{width:8.33%}
+.col-sm-2{width:16.66%}
+.col-sm-3{width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+}
+
+/*For tablet*/
+@media only screen and (min-width:768px)
+{
+    [class*="col-"]{
+    width: 100%;
+}
+    #menu {
+    position: sticky;
+}
+#main2 .photomain2{
+    display: flex;
+    flex-flow: row wrap;
+}
+.latestrecipes1, .latestrecipes2, .latestrecipes3, .latestrecipes4, .latestrecipes5, .latestrecipes6{
+    height: 300px;
+}
+#main3 
+{
+display: flex;
+flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+[title~=food]{
+    width=20%;
+    height:100px;
+}
+#main4{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    min-height: 300px;
+}
+#main4 .khung1, #main4 .khung2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#main4 .hinhkhung1, #main4 .hinhkhung2 {
+    height: 150px;
+}
+#footer{
+    align-items: flex-start;
+    padding-left: 20px; 
+}
+#footer .logonc {
+    align-self:flex-start;
+}
+
+.col-md-1{width:8.33%}
+.col-md-2{width:16.66%}
+.col-md-3{width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+}
+
+/*For desktop*/
+@media only screen and (min-width:792px)
+{ #main4{
+    display: flex;
+    flex-direction: row;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+}
+#footer .right{
+    padding-top: 120px;
+}
+#main4 .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+    .col-lg-1{width:8.33%}
+    .col-lg-2{width:16.66%}
+    .col-lg-3{width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}    
+}
